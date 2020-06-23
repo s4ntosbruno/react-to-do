@@ -2,12 +2,12 @@
   color: black;
   width: 300px;
   background-color: white;
-  height: 50px;
-  margin: 20px auto;
+  height: 30px;
+  margin: 5px auto;
   border-radius: 5px;
 }
 .list p {
-  padding: 10px;
+  padding: 5px;
   position: relative;
 }
 .list p span {
@@ -24,7 +24,7 @@
   background-color: transparent;
   border: 0;
   color: black;
-  font-size: 18px;
+  font-size: 14px;
 }
 .list p input:focus {
   outline: none;

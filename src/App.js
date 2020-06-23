@@ -6,7 +6,7 @@ import { faTrash, faPlus } from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 
 library.add(faTrash, faPlus);
-class App extends React.Component {
+class App extends Component {
   constructor(props) {
     super(props);
     this.state = {
@@ -34,7 +34,6 @@ class App extends React.Component {
   addItem(e) {
     e.preventDefault();
     const newItem = this.state.currentItem;
-    console.log(newItem);
     if (newItem.text !== "") {
       const newItems = [...this.state.items, newItem];
       this.setState({
